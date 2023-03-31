@@ -1,0 +1,24 @@
+{
+  "type" : "record",
+  "name" : "Order_Pojo",
+  "namespace" : "com.vicky.Kafka",
+  "fields" : [ {
+    "name" : "Amount",
+    "type" : "double"
+  }, {
+    "name" : "Category",
+    "type" : "string"
+  }, {
+    "name" : "Order_ID",
+    "type" : "string"
+  }, {
+    "name" : "Profit",
+    "type" : "double"
+  }, {
+    "name" : "Quantity",
+    "type" : "int"
+  }, {
+    "name" : "Sub_Category",
+    "type" : "string"
+  } ]
+}
